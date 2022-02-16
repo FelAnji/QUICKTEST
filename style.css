@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.main {
+    background: #F6FBF2;
+    color: #4A4A68;
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.main-text{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.main-text h1 {
+    font-family: mulish;
+    font-weight: 700;
+    line-height: 50px;
+    size: 40px;
+    color: #4A4A68;
+}
+.main-text p{
+    font-family: mulish;
+    color: #4A4A68;
+    size: 16px;
+    font-weight: 700;
+    line-height: 20px
+}
+
+.blog h3 {
+    color: #9A9AB8;
+    font: mulish;
+    font-weight: 700 bold;
+    font-style: normal;
+    size: 21.75px;
+    line-height: 27px;
+    padding-top: 20px;
+}
+.subheading {
+    font-family: Mulish;
+    font-style: normal;
+    color: #4A4A68;
+    font-weight: bold;
+    line-height: 36px;
+    font-size: 29px;
+}
+.blog-excerpt {
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.blog a {
+    text-decoration: none;
+    font-weight: bold 117px;
+    height: 24px;
+    font-size: 19px;
+    line-height: 24px;
+    color: #80C246;
+}
+
+.pre-footer {
+    height: 390px;
+    background: #243057;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.pre-footer span {
+    color: #80C246;
+}
+.pre-footer button {
+    background-color: #80C246;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-top: 14px;
+    padding-right: 32px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+    margin-top: 50px;
+}
+
+.footer-text {
+    padding-top: 120px;
+}
